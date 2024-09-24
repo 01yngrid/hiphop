@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #832fcdb0;
+}
+
+nav {
+    position: fixed;
+    top:0%;
+    width: 100%;
+    background-color: #1150e173;
+    padding: 20px 0;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0% 20px;
+}
+
+
+nav ul li a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgba(17, 17, 175, 0.951);
+}
+
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home{
+    /* background-color: aliceblue; */
+    background-image: url( https://cdn.pixabay.com/photo/2017/04/25/00/36/street-dancer-2258281_1280.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.content .text{
+    max-width: 600px;
+    text-align: left;
+}
+
+.content.text h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #080808;
+}
+
+.content.text p{
+    font-size: 1.1em;
+    color: #dfe0e0;
+}
+
+#service{
+    background-color: #951414;
+}
+
+#about{
+    background-color: #5c14d06a;
+
+}
+
+#contact {
+    background-color: #2638c1b6;
+}
+    
+    
+    
+    
+   .cta-button{
+    margin-top: 30px;
+    background-color: #a5a7c5d7;
+    color: #000000;
+    padding: 15px 300px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgb(20, 5, 117);
+    transition: background-color 1s ease,transform 1s ease ;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
